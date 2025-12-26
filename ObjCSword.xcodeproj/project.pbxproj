@@ -3136,7 +3136,7 @@
 		A9BDFA771207F9F00067ED5B /* SwordListKeyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwordListKeyTest.m; path = ../test/SwordListKeyTest.m; sourceTree = "<group>"; };
 		A9BDFA7A1207FA2F0067ED5B /* SwordModuleLongRunTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwordModuleLongRunTest.h; path = ../test/SwordModuleLongRunTest.h; sourceTree = "<group>"; };
 		A9BDFA7B1207FA2F0067ED5B /* SwordModuleLongRunTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SwordModuleLongRunTest.mm; path = ../test/SwordModuleLongRunTest.mm; sourceTree = "<group>"; };
-		A9BFB0A213EDF51000032679 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BFB0A213EDF51000032679 /* Tests */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = Tests; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9BFB0A613EDF51100032679 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		A9BFB0A913EDF51100032679 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		A9BFB0AA13EDF51100032679 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -3165,7 +3165,7 @@
 		A9D8FD2C19E2EC0E0055700C /* introtest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = introtest.cpp; path = ../tests/introtest.cpp; sourceTree = "<group>"; };
 		A9D8FD3719E2EC5B0055700C /* introtest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = introtest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E9C5ED16806A2B00ECEB39 /* teixhtml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = teixhtml.cpp; sourceTree = "<group>"; };
-		A9EE8A8B19E286E500CFFE6A /* LongRunningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongRunningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EE8A8B19E286E500CFFE6A /* LongRunningTests */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LongRunningTests; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EE8A8E19E286E500CFFE6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9EF1414120595650078A27C /* SwordLocaleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwordLocaleManager.h; path = src/SwordLocaleManager.h; sourceTree = "<group>"; };
 		A9EF1415120595650078A27C /* SwordLocaleManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SwordLocaleManager.mm; path = src/SwordLocaleManager.mm; sourceTree = "<group>"; };
@@ -3356,7 +3356,7 @@
 				8DC2EF5B0486A6940098B216 /* ObjCSword.framework */,
 				A975EED911C792B9007C1532 /* mod2osis */,
 				A9921A1911FD9CA8002DAA72 /* libSword.dylib */,
-				A9BFB0A213EDF51000032679 /* Tests.xctest */,
+				A9BFB0A213EDF51000032679 /* Tests */,
 				A954ABC313EE9AB00094E3FE /* libsword.dylib */,
 				A9A7EEB414D5D61700B76B6A /* osis2mod */,
 				A9D2714E14D717D800DA8926 /* imp2gbs */,
@@ -3373,7 +3373,7 @@
 				A9D271DD14D718C800DA8926 /* vs2osisref */,
 				A9D271EA14D718DF00DA8926 /* vs2osisreftxt */,
 				A9D271F714D718F500DA8926 /* xml2gbs */,
-				A9EE8A8B19E286E500CFFE6A /* LongRunningTests.xctest */,
+				A9EE8A8B19E286E500CFFE6A /* LongRunningTests */,
 				A9D8FD3719E2EC5B0055700C /* introtest */,
 			);
 			name = Products;
@@ -6058,7 +6058,7 @@
 			);
 			name = Tests;
 			productName = "Tests-new";
-			productReference = A9BFB0A213EDF51000032679 /* Tests.xctest */;
+			productReference = A9BFB0A213EDF51000032679 /* Tests */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		A9D2714414D717D800DA8926 /* imp2gbs */ = {
@@ -6331,7 +6331,7 @@
 			);
 			name = LongRunningTests;
 			productName = LongRunningTests;
-			productReference = A9EE8A8B19E286E500CFFE6A /* LongRunningTests.xctest */;
+			productReference = A9EE8A8B19E286E500CFFE6A /* LongRunningTests */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -7633,7 +7633,6 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -7657,7 +7656,6 @@
 				INSTALL_PATH = "@rpath";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MARKETING_VERSION = 1.8.1;
 				OBJROOT = "$(PROJECT_DIR)/Build/Intermediates";
 				ONLY_ACTIVE_ARCH = YES;
@@ -7683,7 +7681,6 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -7707,7 +7704,6 @@
 				INSTALL_PATH = "@rpath";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MARKETING_VERSION = 1.8.1;
 				OBJROOT = "$(PROJECT_DIR)/Build/Intermediates";
 				OTHER_CFLAGS = "-DRELEASE";
@@ -7812,7 +7808,6 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -7837,7 +7832,6 @@
 				);
 				INSTALL_PATH = "@rpath";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -7863,7 +7857,6 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -7884,7 +7877,6 @@
 				);
 				INSTALL_PATH = "@rpath";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"-DCURLAVAILABLE",
@@ -7909,7 +7901,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -7924,7 +7915,6 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -7948,7 +7938,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -7962,7 +7951,6 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -7987,7 +7975,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -8009,7 +7996,6 @@
 					"$(SRCROOT)/dependencies/clucene",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8031,7 +8017,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -8048,7 +8033,6 @@
 					"$(SRCROOT)/dependencies/clucene",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8072,7 +8056,6 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -8095,7 +8078,6 @@
 				);
 				INFOPLIST_FILE = "test/Tests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.mabe.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8116,7 +8098,6 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -8133,7 +8114,6 @@
 				);
 				INFOPLIST_FILE = "test/Tests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.mabe.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -8151,7 +8131,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -8166,7 +8145,6 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8190,7 +8168,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -8204,7 +8181,6 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8229,7 +8205,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -8244,7 +8219,6 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8268,7 +8242,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -8282,7 +8255,6 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8307,7 +8279,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -8322,7 +8293,6 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8346,7 +8316,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -8360,7 +8329,6 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8385,7 +8353,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -8400,7 +8367,6 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8424,7 +8390,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -8438,7 +8403,6 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8463,7 +8427,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -8478,7 +8441,6 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8502,7 +8464,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -8516,7 +8477,6 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8541,7 +8501,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -8556,7 +8515,6 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8580,7 +8538,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -8594,7 +8551,6 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8619,7 +8575,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -8634,7 +8589,6 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8658,7 +8612,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -8672,7 +8625,6 @@
 				);
 				INSTALL_PATH = /usr/local/bin;
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8697,7 +8649,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -8719,7 +8670,6 @@
 					"$(SRCROOT)/dependencies/clucene",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8741,7 +8691,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -8758,7 +8707,6 @@
 					"$(SRCROOT)/dependencies/clucene",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8780,7 +8728,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -8802,7 +8749,6 @@
 					"$(SRCROOT)/dependencies/clucene",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8824,7 +8770,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -8841,7 +8786,6 @@
 					"$(SRCROOT)/dependencies/clucene",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8863,7 +8807,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -8885,7 +8828,6 @@
 					"$(SRCROOT)/dependencies/clucene",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8907,7 +8849,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -8924,7 +8865,6 @@
 					"$(SRCROOT)/dependencies/clucene",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8946,7 +8886,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -8968,7 +8907,6 @@
 					"$(SRCROOT)/dependencies/clucene",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -8990,7 +8928,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -9007,7 +8944,6 @@
 					"$(SRCROOT)/dependencies/clucene",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -9029,7 +8965,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -9051,7 +8986,6 @@
 					"$(SRCROOT)/dependencies/clucene",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -9073,7 +9007,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -9090,7 +9023,6 @@
 					"$(SRCROOT)/dependencies/clucene",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -9112,7 +9044,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -9134,7 +9065,6 @@
 					"$(SRCROOT)/dependencies/clucene",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -9156,7 +9086,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -9173,7 +9102,6 @@
 					"$(SRCROOT)/dependencies/clucene",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -9195,7 +9123,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -9217,7 +9144,6 @@
 					"$(SRCROOT)/dependencies/clucene",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -9239,7 +9165,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 27XS5W9C3J;
@@ -9256,7 +9181,6 @@
 					"$(SRCROOT)/dependencies/clucene",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../../Frameworks/ObjCSword.framework/Versions/A/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				OTHER_CFLAGS = (
 					"-DCURLAVAILABLE",
 					"-Dunix",
@@ -9278,7 +9202,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -9288,7 +9212,7 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -9298,7 +9222,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -9335,7 +9258,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -9385,7 +9307,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -9411,7 +9332,6 @@
 				);
 				INFOPLIST_FILE = LongRunningTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.mabe.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -9436,7 +9356,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -9458,7 +9377,6 @@
 				);
 				INFOPLIST_FILE = LongRunningTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.mabe.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
