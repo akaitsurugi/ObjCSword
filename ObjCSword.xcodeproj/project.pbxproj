@@ -1292,7 +1292,6 @@
 		A9A12A7419DF145A005BCBC1 /* treekey.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A129B719DF144D005BCBC1 /* treekey.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A9A12A7519DF145A005BCBC1 /* treekeyidx.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A129B819DF144D005BCBC1 /* treekeyidx.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A9A12A7619DF145A005BCBC1 /* unicodertf.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A129B919DF144D005BCBC1 /* unicodertf.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		A9A12A7719DF145A005BCBC1 /* untgz.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A129BA19DF144D005BCBC1 /* untgz.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A9A12A7819DF145A005BCBC1 /* url.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A129BB19DF144D005BCBC1 /* url.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A9A12A7919DF145A005BCBC1 /* utf16utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A129BC19DF144D005BCBC1 /* utf16utf8.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A9A12A7A19DF145B005BCBC1 /* utf8arabicpoints.h in Headers */ = {isa = PBXBuildFile; fileRef = A9A129BD19DF144D005BCBC1 /* utf8arabicpoints.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -3077,7 +3076,6 @@
 		A9A129B719DF144D005BCBC1 /* treekey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = treekey.h; sourceTree = "<group>"; };
 		A9A129B819DF144D005BCBC1 /* treekeyidx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = treekeyidx.h; sourceTree = "<group>"; };
 		A9A129B919DF144D005BCBC1 /* unicodertf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unicodertf.h; sourceTree = "<group>"; };
-		A9A129BA19DF144D005BCBC1 /* untgz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = untgz.h; sourceTree = "<group>"; };
 		A9A129BB19DF144D005BCBC1 /* url.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = url.h; sourceTree = "<group>"; };
 		A9A129BC19DF144D005BCBC1 /* utf16utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf16utf8.h; sourceTree = "<group>"; };
 		A9A129BD19DF144D005BCBC1 /* utf8arabicpoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf8arabicpoints.h; sourceTree = "<group>"; };
@@ -3161,7 +3159,7 @@
 		A9D271F714D718F500DA8926 /* xml2gbs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = xml2gbs; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D4360311C4FE97007AFE83 /* SwordModule+Index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SwordModule+Index.h"; path = "src/SwordModule+Index.h"; sourceTree = "<group>"; };
 		A9D4360411C4FE97007AFE83 /* SwordModule+Index.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "SwordModule+Index.mm"; path = "src/SwordModule+Index.mm"; sourceTree = "<group>"; };
-		A9D437CE11C52947007AFE83 /* locales.d */ = {isa = PBXFileReference; lastKnownFileType = folder; name = locales.d; path = "../sword-1-8-1 (tag)/locales.d"; sourceTree = SOURCE_ROOT; };
+		A9D437CE11C52947007AFE83 /* locales.d */ = {isa = PBXFileReference; lastKnownFileType = folder; name = locales.d; path = dependencies/sword/locales.d; sourceTree = SOURCE_ROOT; };
 		A9D8FD2C19E2EC0E0055700C /* introtest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = introtest.cpp; path = ../tests/introtest.cpp; sourceTree = "<group>"; };
 		A9D8FD3719E2EC5B0055700C /* introtest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = introtest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9E9C5ED16806A2B00ECEB39 /* teixhtml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = teixhtml.cpp; sourceTree = "<group>"; };
@@ -5250,7 +5248,6 @@
 				A9A129B719DF144D005BCBC1 /* treekey.h */,
 				A9A129B819DF144D005BCBC1 /* treekeyidx.h */,
 				A9A129B919DF144D005BCBC1 /* unicodertf.h */,
-				A9A129BA19DF144D005BCBC1 /* untgz.h */,
 				A9A129BB19DF144D005BCBC1 /* url.h */,
 				A9A129BC19DF144D005BCBC1 /* utf16utf8.h */,
 				A9A129BD19DF144D005BCBC1 /* utf8arabicpoints.h */,
@@ -5409,7 +5406,7 @@
 				A9A1291B19DF144D005BCBC1 /* include */,
 			);
 			name = sword;
-			path = "../sword-1-8-1 (tag)";
+			path = dependencies/sword;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -5606,7 +5603,6 @@
 				A9A12A4519DF1453005BCBC1 /* swcacher.h in Headers */,
 				A9A12A0D19DF144F005BCBC1 /* installmgr.h in Headers */,
 				A9A12A2119DF1450005BCBC1 /* osismorphsegmentation.h in Headers */,
-				A9A12A7719DF145A005BCBC1 /* untgz.h in Headers */,
 				A9A12A3919DF1452005BCBC1 /* rawverse.h in Headers */,
 				A9A12A7319DF1459005BCBC1 /* thmlxhtml.h in Headers */,
 				A94EAC11117B28920018B06F /* SwordBibleTextEntry.h in Headers */,
