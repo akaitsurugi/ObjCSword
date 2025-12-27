@@ -27,6 +27,8 @@ typedef sword::multimapwithdefault<sword::SWBuf, sword::SWBuf, std::less <sword:
 @property (retain, readwrite) NSString *configPath;
 @property (readwrite) BOOL createConfigPath;
 
+- (sword::InstallMgr *)newDefaultInstallMgr;
+
 @end
 
 @implementation SwordInstallSourceManager
