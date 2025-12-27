@@ -139,13 +139,13 @@
 - (id)attributeValueForParsedLinkData:(NSDictionary *)data withTextRenderType:(RenderType)textType {
     id ret = nil;
     
-    NSString *attrType = data[ATTRTYPE_TYPE];
+    NSString *attrType = [data objectForKey:ATTRTYPE_TYPE];
     if([attrType isEqualToString:@"scriptRef"] || 
        [attrType isEqualToString:@"scripRef"] ||
        [attrType isEqualToString:@"Greek"] ||
        [attrType isEqualToString:@"Hebrew"] ||
        [attrType hasPrefix:@"strongMorph"] || [attrType hasPrefix:@"robinson"]) {
-        NSString *key = data[ATTRTYPE_VALUE];
+        NSString *key = [data objectForKey:ATTRTYPE_VALUE];
         ret = [self strippedTextEntriesForReference:key];
     }
     

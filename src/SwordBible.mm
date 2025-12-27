@@ -81,14 +81,14 @@ NSLock *bibleLock = nil;
 	
 	//if abbr contains : or . then we are a verse so return a chapter
 	if([abbr rangeOfString:@":"].location != NSNotFound || [abbr rangeOfString:@"."].location != NSNotFound) {
-		return firstBits[0];
+		return [firstBits objectAtIndex:0];
     }
 	
 	//otherwise return a book
 	firstBits = [first componentsSeparatedByString:@" "];
 	
 	if([firstBits count] > 0) {
-		return firstBits[0];
+		return [firstBits objectAtIndex:0];
     }
 	
 	return abbr;
@@ -129,10 +129,10 @@ NSLock *bibleLock = nil;
 
     NSMutableDictionary *buf = [NSMutableDictionary dictionary];
     for(NSUInteger i = 0;i < books.count;i++) {
-        SwordBibleBook *bb = books[i];
+        SwordBibleBook *bb = [books objectAtIndex:i];
 
         NSString *bookName = [bb name];
-        buf[bookName] = bb;
+        [buf setObject:bb forKey:bookName];
     }
     return [NSDictionary dictionaryWithDictionary:buf];
 }
@@ -171,7 +171,7 @@ NSLock *bibleLock = nil;
     int chapter = key->getChapterMax();
     int verse = key->getVerseMax();
     
-    SwordBibleBook *bb = [self books][bookName];
+    SwordBibleBook *bb = [[self books] objectForKey:bookName];
     if(bb) {
         if(chapter > 0 && chapter < [bb numberOfChapters]) {
             if(verse > 0 && verse < [bb numberOfVersesForChapter:chapter]) {
@@ -207,7 +207,7 @@ NSLock *bibleLock = nil;
 - (int)versesForChapter:(int)chapter bookName:(NSString *)bookName {
     int ret = -1;
     
-    SwordBibleBook *bb = [self books][bookName];
+    SwordBibleBook *bb = [[self books] objectForKey:bookName];
     if(bb) {
         ret = [bb numberOfVersesForChapter:chapter];
     }

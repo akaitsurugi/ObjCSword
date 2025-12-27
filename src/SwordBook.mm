@@ -55,15 +55,15 @@
     
     [moduleLock lock];
     if(treeKey == nil) {
-        ret = self._contentsBuffer[GenBookRootKey];
+        ret = [self._contentsBuffer objectForKey:GenBookRootKey];
         if(ret == nil) {
             sword::TreeKeyIdx *tk = dynamic_cast<sword::TreeKeyIdx*>((sword::SWKey *)*([self swModule]));
             ret = [self _treeEntryForKey:tk];
             // add to content
-            self._contentsBuffer[GenBookRootKey] = ret;
+            [self._contentsBuffer setObject:ret forKey:GenBookRootKey];
         }
     } else {
-        ret = self._contentsBuffer[treeKey];
+        ret = [self._contentsBuffer objectForKey:treeKey];
         if(ret == nil) {
             const char *keyStr = [treeKey UTF8String];
             if(![self isUnicode]) {
@@ -75,7 +75,7 @@
             sword::TreeKeyIdx *key = dynamic_cast<sword::TreeKeyIdx*>((sword::SWKey *)*([self swModule]));
             ret = [self _treeEntryForKey:key];
             // add to content
-            self._contentsBuffer[treeKey] = ret;
+            [self._contentsBuffer setObject:ret forKey:treeKey];
         }
     }
     [moduleLock unlock];

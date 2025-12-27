@@ -38,7 +38,12 @@ using std::list;
 static SwordManager *instance = nil;
 
 + (NSArray *)moduleTypes {
-    return @[SWMOD_TYPES_BIBLES, SWMOD_TYPES_COMMENTARIES, SWMOD_TYPES_DICTIONARIES, SWMOD_TYPES_GENBOOKS];
+    return [NSArray arrayWithObjects:
+            SWMOD_TYPES_BIBLES,
+            SWMOD_TYPES_COMMENTARIES,
+            SWMOD_TYPES_DICTIONARIES,
+            SWMOD_TYPES_GENBOOKS,
+            nil];
 }
 
 + (SwordManager *)managerWithPath:(NSString *)path {
@@ -245,7 +250,7 @@ static SwordManager *instance = nil;
         mod = it->second;
         if(mod) {
             SwordModule *swMod = [self moduleWithName:[NSString stringWithUTF8String:mod->getName()]];
-            dict[[swMod name]] = swMod;
+            [dict setObject:swMod forKey:[swMod name]];
         }
     }
     return [NSDictionary dictionaryWithDictionary:dict];
@@ -268,7 +273,7 @@ static SwordManager *instance = nil;
     }
 	
     // sort
-    NSArray *sortDescriptors = @[[[[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES] autorelease]];
+    NSArray *sortDescriptors = [NSArray arrayWithObject:[[[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES] autorelease]];
     [ret sortUsingDescriptors:sortDescriptors];
 
 	return [NSArray arrayWithArray:ret];
@@ -283,7 +288,7 @@ static SwordManager *instance = nil;
     }
     
     // sort
-    NSArray *sortDescriptors = @[[[[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES] autorelease]];
+    NSArray *sortDescriptors = [NSArray arrayWithObject:[[[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES] autorelease]];
     [ret sortUsingDescriptors:sortDescriptors];
     
 	return [NSArray arrayWithArray:ret];
@@ -297,7 +302,7 @@ static SwordManager *instance = nil;
         }
     }
     
-    NSArray *sortDescriptors = @[[[[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES] autorelease]];
+    NSArray *sortDescriptors = [NSArray arrayWithObject:[[[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES] autorelease]];
     [ret sortUsingDescriptors:sortDescriptors];
     
 	return [NSArray arrayWithArray:ret];    

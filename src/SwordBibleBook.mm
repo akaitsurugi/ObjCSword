@@ -22,10 +22,10 @@
 
 @implementation SwordBibleBook
 
-//@synthesize number;
-//@synthesize numberInTestament;
-//@synthesize testament;
-//@synthesize localizedName;
+@synthesize number;
+@synthesize numberInTestament;
+@synthesize testament;
+@synthesize localizedName;
 @dynamic chapters;
 
 - (id)init {
@@ -121,7 +121,7 @@
 
 /** we implement this for sorting */
 - (NSComparisonResult)compare:(SwordBibleBook *)b {
-    return [@(self.number) compare:@([b number])];
+    return [[NSNumber numberWithInt:self.number] compare:[NSNumber numberWithInt:[b number]]];
 }
 
 @end

@@ -415,26 +415,26 @@
     id ret = nil;
 
     SwordKey *swKey = [self getKey];
-    NSString *passage = data[ATTRTYPE_PASSAGE];
+    NSString *passage = [data objectForKey:ATTRTYPE_PASSAGE];
     if(passage) {
         passage = [[passage stringByReplacingOccurrencesOfString:@"+" withString:@" "] stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     } 
-    NSString *attrType = data[ATTRTYPE_TYPE];
+    NSString *attrType = [data objectForKey:ATTRTYPE_TYPE];
     if([attrType isEqualToString:@"n"]) {
         [swKey setKeyText:passage];
         NSString *footnoteText = [self entryAttributeValueFootnoteOfType:attrType 
-                                                              indexValue:data[ATTRTYPE_VALUE]
+                                                              indexValue:[data objectForKey:ATTRTYPE_VALUE]
                                                                   forKey:swKey];
         ret = footnoteText;
     } else if([attrType isEqualToString:@"x"] || [attrType isEqualToString:@"scriptRef"] || [attrType isEqualToString:@"scripRef"]) {
         NSString *key;
         if([attrType isEqualToString:@"x"]) {
             key = [self entryAttributeValueFootnoteOfType:attrType
-                                               indexValue:data[ATTRTYPE_VALUE]
+                                               indexValue:[data objectForKey:ATTRTYPE_VALUE]
                                                    forKey:swKey];
         } else {
-            key = [[data[ATTRTYPE_VALUE] stringByReplacingOccurrencesOfString:@"+"
-                                                                   withString:@" "] stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+            key = [[[data objectForKey:ATTRTYPE_VALUE] stringByReplacingOccurrencesOfString:@"+"
+                                                                                 withString:@" "] stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
         }
         if(textType == RenderTypeRendered) {
             ret = [self renderedTextEntriesForReference:key];
@@ -596,7 +596,7 @@
     SwordModuleTextEntry *entry = [self textEntryForReference:aReference renderType:aType];
     if(entry) {
         entryResult(entry);     // let caller do something with the result
-        ret = @[entry];
+        ret = [NSArray arrayWithObject:entry];
     }
     
     return ret;

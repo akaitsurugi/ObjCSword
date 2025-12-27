@@ -182,7 +182,7 @@ base path of the module installation
         }
 
         ALog(@"Adding install source: %@", [is caption]);
-        dict[[is caption]] = is;
+        [dict setObject:is forKey:[is caption]];
     }
 
     return [NSDictionary dictionaryWithDictionary:dict];

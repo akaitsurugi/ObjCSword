@@ -20,6 +20,8 @@
 
 @implementation SwordVerseManager
 
+@synthesize booksPerVersification;
+
 + (SwordVerseManager *)defaultManager {
     static SwordVerseManager *singleton = nil;
     if(!singleton) {
@@ -46,7 +48,7 @@
 
 /** books for a versification scheme */
 - (NSArray *)booksForVersification:(NSString *)verseScheme {
-    NSArray *ret = self.booksPerVersification[verseScheme];
+    NSArray *ret = [booksPerVersification objectForKey:verseScheme];
     if(ret == nil) {
         // hasn't been initialized yet
         const sword::VersificationMgr::System *system = verseMgr->getVersificationSystem([verseScheme UTF8String]);
@@ -68,7 +70,7 @@
             // add to array
             [buf addObject:bb];
         }
-        self.booksPerVersification[verseScheme] = buf;
+        [booksPerVersification setObject:buf forKey:verseScheme];
         ret = buf;
     }
     
