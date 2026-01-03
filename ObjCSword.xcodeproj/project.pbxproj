@@ -1116,7 +1116,7 @@
 		A954ACC113EEA0C10094E3FE /* utilstr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A954A8DB13EE98B30094E3FE /* utilstr.cpp */; };
 		A954ACC213EEA0C10094E3FE /* utilxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A954A8DC13EE98B30094E3FE /* utilxml.cpp */; };
 		A954ACCA13EEA5340094E3FE /* ftplib.c in Sources */ = {isa = PBXBuildFile; fileRef = A954A8D013EE98B30094E3FE /* ftplib.c */; };
-		A954ACCB13EEA5340094E3FE /* ftpparse.c in Sources */ = {isa = PBXBuildFile; fileRef = A954A8D113EE98B30094E3FE /* ftpparse.c */; };
+		A954ACCB13EEA5340094E3FE /* ftpparse.c in Sources */ = {isa = PBXBuildFile; fileRef = A954A8D113EE98B30094E3FE /* ftpparse.c */; settings = {COMPILER_FLAGS = "-O0"; }; };
 		A954ACDD13EEA6780094E3FE /* libsword.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A954ABC313EE9AB00094E3FE /* libsword.dylib */; };
 		A9568D131EA0F09700D758C4 /* zverse4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A982037719A09B5C00DD808C /* zverse4.cpp */; };
 		A9568D141EA0F0A200D758C4 /* ztext4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A982038819A09BC000DD808C /* ztext4.cpp */; };
