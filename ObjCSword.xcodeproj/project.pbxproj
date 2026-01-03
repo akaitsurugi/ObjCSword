@@ -7653,7 +7653,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.8.1;
-				OBJROOT = "$(PROJECT_DIR)/Build/Intermediates";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DDEBUG";
 				OTHER_LDFLAGS = (
@@ -7664,7 +7663,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.crosswire.ObjCSword;
 				PRODUCT_NAME = ObjCSword;
 				SDKROOT = macosx;
-				SYMROOT = "$(PROJECT_DIR)/Build/Products";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -7701,7 +7699,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.8.1;
-				OBJROOT = "$(PROJECT_DIR)/Build/Intermediates";
 				OTHER_CFLAGS = "-DRELEASE";
 				OTHER_LDFLAGS = (
 					"-lcurl",
@@ -7711,7 +7708,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.crosswire.ObjCSword;
 				PRODUCT_NAME = ObjCSword;
 				SDKROOT = macosx;
-				SYMROOT = "$(PROJECT_DIR)/Build/Products";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = framework;
 			};
