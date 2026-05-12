@@ -1387,6 +1387,90 @@
 		A9EF1416120595650078A27C /* SwordLocaleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A9EF1414120595650078A27C /* SwordLocaleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9EF1417120595650078A27C /* SwordLocaleManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = A9EF1415120595650078A27C /* SwordLocaleManager.mm */; };
 		A9F02F0D20657EAF004D8F11 /* SwordLocaleManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F02F0C20657EAF004D8F11 /* SwordLocaleManagerTest.m */; };
+		AB924D872F5A74DC0053D9F9 /* appendable.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C8A2F5A74BA0053D9F9 /* appendable.h */; };
+		AB924D882F5A74DC0053D9F9 /* brkiter.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C8B2F5A74BA0053D9F9 /* brkiter.h */; };
+		AB924D892F5A74DC0053D9F9 /* bytestream.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C8C2F5A74BA0053D9F9 /* bytestream.h */; };
+		AB924D8A2F5A74DC0053D9F9 /* bytestrie.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C8D2F5A74BA0053D9F9 /* bytestrie.h */; };
+		AB924D8B2F5A74DC0053D9F9 /* bytestriebuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C8E2F5A74BA0053D9F9 /* bytestriebuilder.h */; };
+		AB924D8C2F5A74DC0053D9F9 /* caniter.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C8F2F5A74BA0053D9F9 /* caniter.h */; };
+		AB924D8D2F5A74DC0053D9F9 /* chariter.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C902F5A74BA0053D9F9 /* chariter.h */; };
+		AB924D8E2F5A74DC0053D9F9 /* dbbi.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C912F5A74BA0053D9F9 /* dbbi.h */; };
+		AB924D8F2F5A74DC0053D9F9 /* docmain.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C922F5A74BA0053D9F9 /* docmain.h */; };
+		AB924D902F5A74DC0053D9F9 /* dtintrv.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C932F5A74BA0053D9F9 /* dtintrv.h */; };
+		AB924D912F5A74DC0053D9F9 /* enumset.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C942F5A74BA0053D9F9 /* enumset.h */; };
+		AB924D922F5A74DC0053D9F9 /* errorcode.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C952F5A74BA0053D9F9 /* errorcode.h */; };
+		AB924D932F5A74DC0053D9F9 /* icudataver.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C962F5A74BA0053D9F9 /* icudataver.h */; };
+		AB924D942F5A74DC0053D9F9 /* icuplug.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C972F5A74BA0053D9F9 /* icuplug.h */; };
+		AB924D952F5A74DC0053D9F9 /* idna.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C982F5A74BA0053D9F9 /* idna.h */; };
+		AB924D962F5A74DC0053D9F9 /* listformatter.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C992F5A74BA0053D9F9 /* listformatter.h */; };
+		AB924D972F5A74DC0053D9F9 /* localpointer.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C9A2F5A74BA0053D9F9 /* localpointer.h */; };
+		AB924D982F5A74DC0053D9F9 /* locid.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C9B2F5A74BA0053D9F9 /* locid.h */; };
+		AB924D992F5A74DC0053D9F9 /* messagepattern.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C9C2F5A74BA0053D9F9 /* messagepattern.h */; };
+		AB924D9A2F5A74DC0053D9F9 /* normalizer2.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C9D2F5A74BA0053D9F9 /* normalizer2.h */; };
+		AB924D9B2F5A74DC0053D9F9 /* normlzr.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C9E2F5A74BA0053D9F9 /* normlzr.h */; };
+		AB924D9C2F5A74DC0053D9F9 /* parseerr.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924C9F2F5A74BA0053D9F9 /* parseerr.h */; };
+		AB924D9D2F5A74DC0053D9F9 /* parsepos.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CA02F5A74BA0053D9F9 /* parsepos.h */; };
+		AB924D9E2F5A74DC0053D9F9 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CA12F5A74BA0053D9F9 /* platform.h */; };
+		AB924D9F2F5A74DC0053D9F9 /* ptypes.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CA22F5A74BA0053D9F9 /* ptypes.h */; };
+		AB924DA02F5A74DC0053D9F9 /* putil.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CA32F5A74BA0053D9F9 /* putil.h */; };
+		AB924DA12F5A74DC0053D9F9 /* rbbi.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CA42F5A74BA0053D9F9 /* rbbi.h */; };
+		AB924DA22F5A74DC0053D9F9 /* rep.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CA52F5A74BA0053D9F9 /* rep.h */; };
+		AB924DA32F5A74DC0053D9F9 /* resbund.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CA62F5A74BA0053D9F9 /* resbund.h */; };
+		AB924DA42F5A74DC0053D9F9 /* schriter.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CA72F5A74BA0053D9F9 /* schriter.h */; };
+		AB924DA52F5A74DC0053D9F9 /* std_string.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CA82F5A74BA0053D9F9 /* std_string.h */; };
+		AB924DA62F5A74DC0053D9F9 /* strenum.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CA92F5A74BA0053D9F9 /* strenum.h */; };
+		AB924DA72F5A74DC0053D9F9 /* stringpiece.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CAA2F5A74BA0053D9F9 /* stringpiece.h */; };
+		AB924DA82F5A74DC0053D9F9 /* stringtriebuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CAB2F5A74BA0053D9F9 /* stringtriebuilder.h */; };
+		AB924DA92F5A74DC0053D9F9 /* symtable.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CAC2F5A74BA0053D9F9 /* symtable.h */; };
+		AB924DAA2F5A74DC0053D9F9 /* ubidi.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CAD2F5A74BA0053D9F9 /* ubidi.h */; };
+		AB924DAB2F5A74DC0053D9F9 /* ubrk.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CAE2F5A74BA0053D9F9 /* ubrk.h */; };
+		AB924DAC2F5A74DC0053D9F9 /* ucasemap.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CAF2F5A74BA0053D9F9 /* ucasemap.h */; };
+		AB924DAD2F5A74DC0053D9F9 /* ucat.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CB02F5A74BA0053D9F9 /* ucat.h */; };
+		AB924DAE2F5A74DC0053D9F9 /* uchar.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CB12F5A74BA0053D9F9 /* uchar.h */; };
+		AB924DAF2F5A74DC0053D9F9 /* ucharstrie.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CB22F5A74BA0053D9F9 /* ucharstrie.h */; };
+		AB924DB02F5A74DC0053D9F9 /* ucharstriebuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CB32F5A74BA0053D9F9 /* ucharstriebuilder.h */; };
+		AB924DB12F5A74DC0053D9F9 /* uchriter.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CB42F5A74BA0053D9F9 /* uchriter.h */; };
+		AB924DB22F5A74DC0053D9F9 /* uclean.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CB52F5A74BA0053D9F9 /* uclean.h */; };
+		AB924DB32F5A74DC0053D9F9 /* ucnv.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CB62F5A74BA0053D9F9 /* ucnv.h */; };
+		AB924DB42F5A74DC0053D9F9 /* ucnv_cb.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CB72F5A74BA0053D9F9 /* ucnv_cb.h */; };
+		AB924DB52F5A74DC0053D9F9 /* ucnv_err.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CB82F5A74BA0053D9F9 /* ucnv_err.h */; };
+		AB924DB62F5A74DC0053D9F9 /* ucnvsel.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CB92F5A74BA0053D9F9 /* ucnvsel.h */; };
+		AB924DB72F5A74DC0053D9F9 /* uconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CBA2F5A74BA0053D9F9 /* uconfig.h */; };
+		AB924DB82F5A74DC0053D9F9 /* udata.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CBB2F5A74BA0053D9F9 /* udata.h */; };
+		AB924DB92F5A74DC0053D9F9 /* uenum.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CBC2F5A74BA0053D9F9 /* uenum.h */; };
+		AB924DBA2F5A74DC0053D9F9 /* uidna.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CBD2F5A74BA0053D9F9 /* uidna.h */; };
+		AB924DBB2F5A74DC0053D9F9 /* uiter.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CBE2F5A74BA0053D9F9 /* uiter.h */; };
+		AB924DBC2F5A74DC0053D9F9 /* uloc.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CBF2F5A74BA0053D9F9 /* uloc.h */; };
+		AB924DBD2F5A74DC0053D9F9 /* umachine.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CC02F5A74BA0053D9F9 /* umachine.h */; };
+		AB924DBE2F5A74DC0053D9F9 /* umisc.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CC12F5A74BA0053D9F9 /* umisc.h */; };
+		AB924DBF2F5A74DC0053D9F9 /* unifilt.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CC22F5A74BA0053D9F9 /* unifilt.h */; };
+		AB924DC02F5A74DC0053D9F9 /* unifunct.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CC32F5A74BA0053D9F9 /* unifunct.h */; };
+		AB924DC12F5A74DC0053D9F9 /* unimatch.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CC42F5A74BA0053D9F9 /* unimatch.h */; };
+		AB924DC22F5A74DC0053D9F9 /* uniset.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CC52F5A74BA0053D9F9 /* uniset.h */; };
+		AB924DC32F5A74DC0053D9F9 /* unistr.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CC62F5A74BA0053D9F9 /* unistr.h */; };
+		AB924DC42F5A74DC0053D9F9 /* unorm.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CC72F5A74BA0053D9F9 /* unorm.h */; };
+		AB924DC52F5A74DC0053D9F9 /* unorm2.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CC82F5A74BA0053D9F9 /* unorm2.h */; };
+		AB924DC62F5A74DC0053D9F9 /* uobject.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CC92F5A74BA0053D9F9 /* uobject.h */; };
+		AB924DC72F5A74DC0053D9F9 /* urename.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CCA2F5A74BA0053D9F9 /* urename.h */; };
+		AB924DC82F5A74DC0053D9F9 /* urep.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CCB2F5A74BA0053D9F9 /* urep.h */; };
+		AB924DC92F5A74DC0053D9F9 /* ures.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CCC2F5A74BA0053D9F9 /* ures.h */; };
+		AB924DCA2F5A74DC0053D9F9 /* uscript.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CCD2F5A74BA0053D9F9 /* uscript.h */; };
+		AB924DCB2F5A74DC0053D9F9 /* uset.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CCE2F5A74BA0053D9F9 /* uset.h */; };
+		AB924DCC2F5A74DC0053D9F9 /* usetiter.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CCF2F5A74BA0053D9F9 /* usetiter.h */; };
+		AB924DCD2F5A74DC0053D9F9 /* ushape.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CD02F5A74BA0053D9F9 /* ushape.h */; };
+		AB924DCE2F5A74DC0053D9F9 /* usprep.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CD12F5A74BA0053D9F9 /* usprep.h */; };
+		AB924DCF2F5A74DC0053D9F9 /* ustring.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CD22F5A74BA0053D9F9 /* ustring.h */; };
+		AB924DD02F5A74DC0053D9F9 /* ustringtrie.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CD32F5A74BA0053D9F9 /* ustringtrie.h */; };
+		AB924DD12F5A74DC0053D9F9 /* utext.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CD42F5A74BA0053D9F9 /* utext.h */; };
+		AB924DD22F5A74DC0053D9F9 /* utf.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CD52F5A74BA0053D9F9 /* utf.h */; };
+		AB924DD32F5A74DC0053D9F9 /* utf16.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CD62F5A74BA0053D9F9 /* utf16.h */; };
+		AB924DD42F5A74DC0053D9F9 /* utf32.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CD72F5A74BA0053D9F9 /* utf32.h */; };
+		AB924DD52F5A74DC0053D9F9 /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CD82F5A74BA0053D9F9 /* utf8.h */; };
+		AB924DD62F5A74DC0053D9F9 /* utf_old.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CD92F5A74BA0053D9F9 /* utf_old.h */; };
+		AB924DD72F5A74DC0053D9F9 /* utrace.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CDA2F5A74BA0053D9F9 /* utrace.h */; };
+		AB924DD82F5A74DC0053D9F9 /* utypes.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CDB2F5A74BA0053D9F9 /* utypes.h */; };
+		AB924DD92F5A74DC0053D9F9 /* uvernum.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CDC2F5A74BA0053D9F9 /* uvernum.h */; };
+		AB924DDA2F5A74DC0053D9F9 /* uversion.h in Headers */ = {isa = PBXBuildFile; fileRef = AB924CDD2F5A74BA0053D9F9 /* uversion.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -3168,6 +3252,90 @@
 		A9EF1414120595650078A27C /* SwordLocaleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwordLocaleManager.h; path = src/SwordLocaleManager.h; sourceTree = "<group>"; };
 		A9EF1415120595650078A27C /* SwordLocaleManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SwordLocaleManager.mm; path = src/SwordLocaleManager.mm; sourceTree = "<group>"; };
 		A9F02F0C20657EAF004D8F11 /* SwordLocaleManagerTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwordLocaleManagerTest.m; sourceTree = "<group>"; };
+		AB924C8A2F5A74BA0053D9F9 /* appendable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appendable.h; sourceTree = "<group>"; };
+		AB924C8B2F5A74BA0053D9F9 /* brkiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brkiter.h; sourceTree = "<group>"; };
+		AB924C8C2F5A74BA0053D9F9 /* bytestream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bytestream.h; sourceTree = "<group>"; };
+		AB924C8D2F5A74BA0053D9F9 /* bytestrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bytestrie.h; sourceTree = "<group>"; };
+		AB924C8E2F5A74BA0053D9F9 /* bytestriebuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bytestriebuilder.h; sourceTree = "<group>"; };
+		AB924C8F2F5A74BA0053D9F9 /* caniter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = caniter.h; sourceTree = "<group>"; };
+		AB924C902F5A74BA0053D9F9 /* chariter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chariter.h; sourceTree = "<group>"; };
+		AB924C912F5A74BA0053D9F9 /* dbbi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbbi.h; sourceTree = "<group>"; };
+		AB924C922F5A74BA0053D9F9 /* docmain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = docmain.h; sourceTree = "<group>"; };
+		AB924C932F5A74BA0053D9F9 /* dtintrv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtintrv.h; sourceTree = "<group>"; };
+		AB924C942F5A74BA0053D9F9 /* enumset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enumset.h; sourceTree = "<group>"; };
+		AB924C952F5A74BA0053D9F9 /* errorcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errorcode.h; sourceTree = "<group>"; };
+		AB924C962F5A74BA0053D9F9 /* icudataver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icudataver.h; sourceTree = "<group>"; };
+		AB924C972F5A74BA0053D9F9 /* icuplug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icuplug.h; sourceTree = "<group>"; };
+		AB924C982F5A74BA0053D9F9 /* idna.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idna.h; sourceTree = "<group>"; };
+		AB924C992F5A74BA0053D9F9 /* listformatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listformatter.h; sourceTree = "<group>"; };
+		AB924C9A2F5A74BA0053D9F9 /* localpointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = localpointer.h; sourceTree = "<group>"; };
+		AB924C9B2F5A74BA0053D9F9 /* locid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = locid.h; sourceTree = "<group>"; };
+		AB924C9C2F5A74BA0053D9F9 /* messagepattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messagepattern.h; sourceTree = "<group>"; };
+		AB924C9D2F5A74BA0053D9F9 /* normalizer2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = normalizer2.h; sourceTree = "<group>"; };
+		AB924C9E2F5A74BA0053D9F9 /* normlzr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = normlzr.h; sourceTree = "<group>"; };
+		AB924C9F2F5A74BA0053D9F9 /* parseerr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parseerr.h; sourceTree = "<group>"; };
+		AB924CA02F5A74BA0053D9F9 /* parsepos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parsepos.h; sourceTree = "<group>"; };
+		AB924CA12F5A74BA0053D9F9 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		AB924CA22F5A74BA0053D9F9 /* ptypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ptypes.h; sourceTree = "<group>"; };
+		AB924CA32F5A74BA0053D9F9 /* putil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = putil.h; sourceTree = "<group>"; };
+		AB924CA42F5A74BA0053D9F9 /* rbbi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rbbi.h; sourceTree = "<group>"; };
+		AB924CA52F5A74BA0053D9F9 /* rep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rep.h; sourceTree = "<group>"; };
+		AB924CA62F5A74BA0053D9F9 /* resbund.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resbund.h; sourceTree = "<group>"; };
+		AB924CA72F5A74BA0053D9F9 /* schriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = schriter.h; sourceTree = "<group>"; };
+		AB924CA82F5A74BA0053D9F9 /* std_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = std_string.h; sourceTree = "<group>"; };
+		AB924CA92F5A74BA0053D9F9 /* strenum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strenum.h; sourceTree = "<group>"; };
+		AB924CAA2F5A74BA0053D9F9 /* stringpiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringpiece.h; sourceTree = "<group>"; };
+		AB924CAB2F5A74BA0053D9F9 /* stringtriebuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringtriebuilder.h; sourceTree = "<group>"; };
+		AB924CAC2F5A74BA0053D9F9 /* symtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symtable.h; sourceTree = "<group>"; };
+		AB924CAD2F5A74BA0053D9F9 /* ubidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ubidi.h; sourceTree = "<group>"; };
+		AB924CAE2F5A74BA0053D9F9 /* ubrk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ubrk.h; sourceTree = "<group>"; };
+		AB924CAF2F5A74BA0053D9F9 /* ucasemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucasemap.h; sourceTree = "<group>"; };
+		AB924CB02F5A74BA0053D9F9 /* ucat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucat.h; sourceTree = "<group>"; };
+		AB924CB12F5A74BA0053D9F9 /* uchar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uchar.h; sourceTree = "<group>"; };
+		AB924CB22F5A74BA0053D9F9 /* ucharstrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucharstrie.h; sourceTree = "<group>"; };
+		AB924CB32F5A74BA0053D9F9 /* ucharstriebuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucharstriebuilder.h; sourceTree = "<group>"; };
+		AB924CB42F5A74BA0053D9F9 /* uchriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uchriter.h; sourceTree = "<group>"; };
+		AB924CB52F5A74BA0053D9F9 /* uclean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uclean.h; sourceTree = "<group>"; };
+		AB924CB62F5A74BA0053D9F9 /* ucnv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucnv.h; sourceTree = "<group>"; };
+		AB924CB72F5A74BA0053D9F9 /* ucnv_cb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucnv_cb.h; sourceTree = "<group>"; };
+		AB924CB82F5A74BA0053D9F9 /* ucnv_err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucnv_err.h; sourceTree = "<group>"; };
+		AB924CB92F5A74BA0053D9F9 /* ucnvsel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucnvsel.h; sourceTree = "<group>"; };
+		AB924CBA2F5A74BA0053D9F9 /* uconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uconfig.h; sourceTree = "<group>"; };
+		AB924CBB2F5A74BA0053D9F9 /* udata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = udata.h; sourceTree = "<group>"; };
+		AB924CBC2F5A74BA0053D9F9 /* uenum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uenum.h; sourceTree = "<group>"; };
+		AB924CBD2F5A74BA0053D9F9 /* uidna.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uidna.h; sourceTree = "<group>"; };
+		AB924CBE2F5A74BA0053D9F9 /* uiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uiter.h; sourceTree = "<group>"; };
+		AB924CBF2F5A74BA0053D9F9 /* uloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uloc.h; sourceTree = "<group>"; };
+		AB924CC02F5A74BA0053D9F9 /* umachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = umachine.h; sourceTree = "<group>"; };
+		AB924CC12F5A74BA0053D9F9 /* umisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = umisc.h; sourceTree = "<group>"; };
+		AB924CC22F5A74BA0053D9F9 /* unifilt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unifilt.h; sourceTree = "<group>"; };
+		AB924CC32F5A74BA0053D9F9 /* unifunct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unifunct.h; sourceTree = "<group>"; };
+		AB924CC42F5A74BA0053D9F9 /* unimatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unimatch.h; sourceTree = "<group>"; };
+		AB924CC52F5A74BA0053D9F9 /* uniset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uniset.h; sourceTree = "<group>"; };
+		AB924CC62F5A74BA0053D9F9 /* unistr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unistr.h; sourceTree = "<group>"; };
+		AB924CC72F5A74BA0053D9F9 /* unorm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unorm.h; sourceTree = "<group>"; };
+		AB924CC82F5A74BA0053D9F9 /* unorm2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unorm2.h; sourceTree = "<group>"; };
+		AB924CC92F5A74BA0053D9F9 /* uobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uobject.h; sourceTree = "<group>"; };
+		AB924CCA2F5A74BA0053D9F9 /* urename.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = urename.h; sourceTree = "<group>"; };
+		AB924CCB2F5A74BA0053D9F9 /* urep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = urep.h; sourceTree = "<group>"; };
+		AB924CCC2F5A74BA0053D9F9 /* ures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ures.h; sourceTree = "<group>"; };
+		AB924CCD2F5A74BA0053D9F9 /* uscript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uscript.h; sourceTree = "<group>"; };
+		AB924CCE2F5A74BA0053D9F9 /* uset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uset.h; sourceTree = "<group>"; };
+		AB924CCF2F5A74BA0053D9F9 /* usetiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usetiter.h; sourceTree = "<group>"; };
+		AB924CD02F5A74BA0053D9F9 /* ushape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ushape.h; sourceTree = "<group>"; };
+		AB924CD12F5A74BA0053D9F9 /* usprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usprep.h; sourceTree = "<group>"; };
+		AB924CD22F5A74BA0053D9F9 /* ustring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ustring.h; sourceTree = "<group>"; };
+		AB924CD32F5A74BA0053D9F9 /* ustringtrie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ustringtrie.h; sourceTree = "<group>"; };
+		AB924CD42F5A74BA0053D9F9 /* utext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utext.h; sourceTree = "<group>"; };
+		AB924CD52F5A74BA0053D9F9 /* utf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf.h; sourceTree = "<group>"; };
+		AB924CD62F5A74BA0053D9F9 /* utf16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf16.h; sourceTree = "<group>"; };
+		AB924CD72F5A74BA0053D9F9 /* utf32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf32.h; sourceTree = "<group>"; };
+		AB924CD82F5A74BA0053D9F9 /* utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf8.h; sourceTree = "<group>"; };
+		AB924CD92F5A74BA0053D9F9 /* utf_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf_old.h; sourceTree = "<group>"; };
+		AB924CDA2F5A74BA0053D9F9 /* utrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utrace.h; sourceTree = "<group>"; };
+		AB924CDB2F5A74BA0053D9F9 /* utypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utypes.h; sourceTree = "<group>"; };
+		AB924CDC2F5A74BA0053D9F9 /* uvernum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uvernum.h; sourceTree = "<group>"; };
+		AB924CDD2F5A74BA0053D9F9 /* uversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uversion.h; sourceTree = "<group>"; };
 		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -3527,6 +3695,7 @@
 		A90152BD19A9E8E100F7FC7D /* common */ = {
 			isa = PBXGroup;
 			children = (
+				AB924C892F5A74BA0053D9F9 /* unicode */,
 				A90152BE19A9E8E100F7FC7D /* appendable.cpp */,
 				A90152BF19A9E8E100F7FC7D /* bmpset.cpp */,
 				A90152C019A9E8E100F7FC7D /* bmpset.h */,
@@ -5409,6 +5578,97 @@
 			path = dependencies/sword;
 			sourceTree = "<group>";
 		};
+		AB924C892F5A74BA0053D9F9 /* unicode */ = {
+			isa = PBXGroup;
+			children = (
+				AB924C8A2F5A74BA0053D9F9 /* appendable.h */,
+				AB924C8B2F5A74BA0053D9F9 /* brkiter.h */,
+				AB924C8C2F5A74BA0053D9F9 /* bytestream.h */,
+				AB924C8D2F5A74BA0053D9F9 /* bytestrie.h */,
+				AB924C8E2F5A74BA0053D9F9 /* bytestriebuilder.h */,
+				AB924C8F2F5A74BA0053D9F9 /* caniter.h */,
+				AB924C902F5A74BA0053D9F9 /* chariter.h */,
+				AB924C912F5A74BA0053D9F9 /* dbbi.h */,
+				AB924C922F5A74BA0053D9F9 /* docmain.h */,
+				AB924C932F5A74BA0053D9F9 /* dtintrv.h */,
+				AB924C942F5A74BA0053D9F9 /* enumset.h */,
+				AB924C952F5A74BA0053D9F9 /* errorcode.h */,
+				AB924C962F5A74BA0053D9F9 /* icudataver.h */,
+				AB924C972F5A74BA0053D9F9 /* icuplug.h */,
+				AB924C982F5A74BA0053D9F9 /* idna.h */,
+				AB924C992F5A74BA0053D9F9 /* listformatter.h */,
+				AB924C9A2F5A74BA0053D9F9 /* localpointer.h */,
+				AB924C9B2F5A74BA0053D9F9 /* locid.h */,
+				AB924C9C2F5A74BA0053D9F9 /* messagepattern.h */,
+				AB924C9D2F5A74BA0053D9F9 /* normalizer2.h */,
+				AB924C9E2F5A74BA0053D9F9 /* normlzr.h */,
+				AB924C9F2F5A74BA0053D9F9 /* parseerr.h */,
+				AB924CA02F5A74BA0053D9F9 /* parsepos.h */,
+				AB924CA12F5A74BA0053D9F9 /* platform.h */,
+				AB924CA22F5A74BA0053D9F9 /* ptypes.h */,
+				AB924CA32F5A74BA0053D9F9 /* putil.h */,
+				AB924CA42F5A74BA0053D9F9 /* rbbi.h */,
+				AB924CA52F5A74BA0053D9F9 /* rep.h */,
+				AB924CA62F5A74BA0053D9F9 /* resbund.h */,
+				AB924CA72F5A74BA0053D9F9 /* schriter.h */,
+				AB924CA82F5A74BA0053D9F9 /* std_string.h */,
+				AB924CA92F5A74BA0053D9F9 /* strenum.h */,
+				AB924CAA2F5A74BA0053D9F9 /* stringpiece.h */,
+				AB924CAB2F5A74BA0053D9F9 /* stringtriebuilder.h */,
+				AB924CAC2F5A74BA0053D9F9 /* symtable.h */,
+				AB924CAD2F5A74BA0053D9F9 /* ubidi.h */,
+				AB924CAE2F5A74BA0053D9F9 /* ubrk.h */,
+				AB924CAF2F5A74BA0053D9F9 /* ucasemap.h */,
+				AB924CB02F5A74BA0053D9F9 /* ucat.h */,
+				AB924CB12F5A74BA0053D9F9 /* uchar.h */,
+				AB924CB22F5A74BA0053D9F9 /* ucharstrie.h */,
+				AB924CB32F5A74BA0053D9F9 /* ucharstriebuilder.h */,
+				AB924CB42F5A74BA0053D9F9 /* uchriter.h */,
+				AB924CB52F5A74BA0053D9F9 /* uclean.h */,
+				AB924CB62F5A74BA0053D9F9 /* ucnv.h */,
+				AB924CB72F5A74BA0053D9F9 /* ucnv_cb.h */,
+				AB924CB82F5A74BA0053D9F9 /* ucnv_err.h */,
+				AB924CB92F5A74BA0053D9F9 /* ucnvsel.h */,
+				AB924CBA2F5A74BA0053D9F9 /* uconfig.h */,
+				AB924CBB2F5A74BA0053D9F9 /* udata.h */,
+				AB924CBC2F5A74BA0053D9F9 /* uenum.h */,
+				AB924CBD2F5A74BA0053D9F9 /* uidna.h */,
+				AB924CBE2F5A74BA0053D9F9 /* uiter.h */,
+				AB924CBF2F5A74BA0053D9F9 /* uloc.h */,
+				AB924CC02F5A74BA0053D9F9 /* umachine.h */,
+				AB924CC12F5A74BA0053D9F9 /* umisc.h */,
+				AB924CC22F5A74BA0053D9F9 /* unifilt.h */,
+				AB924CC32F5A74BA0053D9F9 /* unifunct.h */,
+				AB924CC42F5A74BA0053D9F9 /* unimatch.h */,
+				AB924CC52F5A74BA0053D9F9 /* uniset.h */,
+				AB924CC62F5A74BA0053D9F9 /* unistr.h */,
+				AB924CC72F5A74BA0053D9F9 /* unorm.h */,
+				AB924CC82F5A74BA0053D9F9 /* unorm2.h */,
+				AB924CC92F5A74BA0053D9F9 /* uobject.h */,
+				AB924CCA2F5A74BA0053D9F9 /* urename.h */,
+				AB924CCB2F5A74BA0053D9F9 /* urep.h */,
+				AB924CCC2F5A74BA0053D9F9 /* ures.h */,
+				AB924CCD2F5A74BA0053D9F9 /* uscript.h */,
+				AB924CCE2F5A74BA0053D9F9 /* uset.h */,
+				AB924CCF2F5A74BA0053D9F9 /* usetiter.h */,
+				AB924CD02F5A74BA0053D9F9 /* ushape.h */,
+				AB924CD12F5A74BA0053D9F9 /* usprep.h */,
+				AB924CD22F5A74BA0053D9F9 /* ustring.h */,
+				AB924CD32F5A74BA0053D9F9 /* ustringtrie.h */,
+				AB924CD42F5A74BA0053D9F9 /* utext.h */,
+				AB924CD52F5A74BA0053D9F9 /* utf.h */,
+				AB924CD62F5A74BA0053D9F9 /* utf16.h */,
+				AB924CD72F5A74BA0053D9F9 /* utf32.h */,
+				AB924CD82F5A74BA0053D9F9 /* utf8.h */,
+				AB924CD92F5A74BA0053D9F9 /* utf_old.h */,
+				AB924CDA2F5A74BA0053D9F9 /* utrace.h */,
+				AB924CDB2F5A74BA0053D9F9 /* utypes.h */,
+				AB924CDC2F5A74BA0053D9F9 /* uvernum.h */,
+				AB924CDD2F5A74BA0053D9F9 /* uversion.h */,
+			);
+			path = unicode;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -5961,6 +6221,90 @@
 				A901630B19A9E8EB00F7FC7D /* cmemory.h in Headers */,
 				A901633919A9E8EB00F7FC7D /* propname.h in Headers */,
 				A90164D919A9E8EB00F7FC7D /* dtptngen_impl.h in Headers */,
+				AB924D872F5A74DC0053D9F9 /* appendable.h in Headers */,
+				AB924D882F5A74DC0053D9F9 /* brkiter.h in Headers */,
+				AB924D892F5A74DC0053D9F9 /* bytestream.h in Headers */,
+				AB924D8A2F5A74DC0053D9F9 /* bytestrie.h in Headers */,
+				AB924D8B2F5A74DC0053D9F9 /* bytestriebuilder.h in Headers */,
+				AB924D8C2F5A74DC0053D9F9 /* caniter.h in Headers */,
+				AB924D8D2F5A74DC0053D9F9 /* chariter.h in Headers */,
+				AB924D8E2F5A74DC0053D9F9 /* dbbi.h in Headers */,
+				AB924D8F2F5A74DC0053D9F9 /* docmain.h in Headers */,
+				AB924D902F5A74DC0053D9F9 /* dtintrv.h in Headers */,
+				AB924D912F5A74DC0053D9F9 /* enumset.h in Headers */,
+				AB924D922F5A74DC0053D9F9 /* errorcode.h in Headers */,
+				AB924D932F5A74DC0053D9F9 /* icudataver.h in Headers */,
+				AB924D942F5A74DC0053D9F9 /* icuplug.h in Headers */,
+				AB924D952F5A74DC0053D9F9 /* idna.h in Headers */,
+				AB924D962F5A74DC0053D9F9 /* listformatter.h in Headers */,
+				AB924D972F5A74DC0053D9F9 /* localpointer.h in Headers */,
+				AB924D982F5A74DC0053D9F9 /* locid.h in Headers */,
+				AB924D992F5A74DC0053D9F9 /* messagepattern.h in Headers */,
+				AB924D9A2F5A74DC0053D9F9 /* normalizer2.h in Headers */,
+				AB924D9B2F5A74DC0053D9F9 /* normlzr.h in Headers */,
+				AB924D9C2F5A74DC0053D9F9 /* parseerr.h in Headers */,
+				AB924D9D2F5A74DC0053D9F9 /* parsepos.h in Headers */,
+				AB924D9E2F5A74DC0053D9F9 /* platform.h in Headers */,
+				AB924D9F2F5A74DC0053D9F9 /* ptypes.h in Headers */,
+				AB924DA02F5A74DC0053D9F9 /* putil.h in Headers */,
+				AB924DA12F5A74DC0053D9F9 /* rbbi.h in Headers */,
+				AB924DA22F5A74DC0053D9F9 /* rep.h in Headers */,
+				AB924DA32F5A74DC0053D9F9 /* resbund.h in Headers */,
+				AB924DA42F5A74DC0053D9F9 /* schriter.h in Headers */,
+				AB924DA52F5A74DC0053D9F9 /* std_string.h in Headers */,
+				AB924DA62F5A74DC0053D9F9 /* strenum.h in Headers */,
+				AB924DA72F5A74DC0053D9F9 /* stringpiece.h in Headers */,
+				AB924DA82F5A74DC0053D9F9 /* stringtriebuilder.h in Headers */,
+				AB924DA92F5A74DC0053D9F9 /* symtable.h in Headers */,
+				AB924DAA2F5A74DC0053D9F9 /* ubidi.h in Headers */,
+				AB924DAB2F5A74DC0053D9F9 /* ubrk.h in Headers */,
+				AB924DAC2F5A74DC0053D9F9 /* ucasemap.h in Headers */,
+				AB924DAD2F5A74DC0053D9F9 /* ucat.h in Headers */,
+				AB924DAE2F5A74DC0053D9F9 /* uchar.h in Headers */,
+				AB924DAF2F5A74DC0053D9F9 /* ucharstrie.h in Headers */,
+				AB924DB02F5A74DC0053D9F9 /* ucharstriebuilder.h in Headers */,
+				AB924DB12F5A74DC0053D9F9 /* uchriter.h in Headers */,
+				AB924DB22F5A74DC0053D9F9 /* uclean.h in Headers */,
+				AB924DB32F5A74DC0053D9F9 /* ucnv.h in Headers */,
+				AB924DB42F5A74DC0053D9F9 /* ucnv_cb.h in Headers */,
+				AB924DB52F5A74DC0053D9F9 /* ucnv_err.h in Headers */,
+				AB924DB62F5A74DC0053D9F9 /* ucnvsel.h in Headers */,
+				AB924DB72F5A74DC0053D9F9 /* uconfig.h in Headers */,
+				AB924DB82F5A74DC0053D9F9 /* udata.h in Headers */,
+				AB924DB92F5A74DC0053D9F9 /* uenum.h in Headers */,
+				AB924DBA2F5A74DC0053D9F9 /* uidna.h in Headers */,
+				AB924DBB2F5A74DC0053D9F9 /* uiter.h in Headers */,
+				AB924DBC2F5A74DC0053D9F9 /* uloc.h in Headers */,
+				AB924DBD2F5A74DC0053D9F9 /* umachine.h in Headers */,
+				AB924DBE2F5A74DC0053D9F9 /* umisc.h in Headers */,
+				AB924DBF2F5A74DC0053D9F9 /* unifilt.h in Headers */,
+				AB924DC02F5A74DC0053D9F9 /* unifunct.h in Headers */,
+				AB924DC12F5A74DC0053D9F9 /* unimatch.h in Headers */,
+				AB924DC22F5A74DC0053D9F9 /* uniset.h in Headers */,
+				AB924DC32F5A74DC0053D9F9 /* unistr.h in Headers */,
+				AB924DC42F5A74DC0053D9F9 /* unorm.h in Headers */,
+				AB924DC52F5A74DC0053D9F9 /* unorm2.h in Headers */,
+				AB924DC62F5A74DC0053D9F9 /* uobject.h in Headers */,
+				AB924DC72F5A74DC0053D9F9 /* urename.h in Headers */,
+				AB924DC82F5A74DC0053D9F9 /* urep.h in Headers */,
+				AB924DC92F5A74DC0053D9F9 /* ures.h in Headers */,
+				AB924DCA2F5A74DC0053D9F9 /* uscript.h in Headers */,
+				AB924DCB2F5A74DC0053D9F9 /* uset.h in Headers */,
+				AB924DCC2F5A74DC0053D9F9 /* usetiter.h in Headers */,
+				AB924DCD2F5A74DC0053D9F9 /* ushape.h in Headers */,
+				AB924DCE2F5A74DC0053D9F9 /* usprep.h in Headers */,
+				AB924DCF2F5A74DC0053D9F9 /* ustring.h in Headers */,
+				AB924DD02F5A74DC0053D9F9 /* ustringtrie.h in Headers */,
+				AB924DD12F5A74DC0053D9F9 /* utext.h in Headers */,
+				AB924DD22F5A74DC0053D9F9 /* utf.h in Headers */,
+				AB924DD32F5A74DC0053D9F9 /* utf16.h in Headers */,
+				AB924DD42F5A74DC0053D9F9 /* utf32.h in Headers */,
+				AB924DD52F5A74DC0053D9F9 /* utf8.h in Headers */,
+				AB924DD62F5A74DC0053D9F9 /* utf_old.h in Headers */,
+				AB924DD72F5A74DC0053D9F9 /* utrace.h in Headers */,
+				AB924DD82F5A74DC0053D9F9 /* utypes.h in Headers */,
+				AB924DD92F5A74DC0053D9F9 /* uvernum.h in Headers */,
+				AB924DDA2F5A74DC0053D9F9 /* uversion.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
